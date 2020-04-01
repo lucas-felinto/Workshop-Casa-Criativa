@@ -1,0 +1,358 @@
+/* Estilos do CSS */
+
+/* Em CSS tudo é BOX (caixas) contendo conteúdo
+
+    Box Model = Espaçamentos; Bordas; Preenchimento; Posicionamentos; Largura;
+                    margin;   border;     padding;        position;     width;
+
+
+    Flex = Filhos da <div> em Linha
+*/
+
+/* INDEX */
+
+body {
+    background-color: #e5e5e5;
+    color: #25282B;
+    font-family: "Montserrat", sans-serif;
+ }
+
+body.hideScroll {
+    overflow: hidden;
+}
+
+.hide {
+    display: none;
+}
+
+a {
+    color: #ff5E84;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p, .description {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+ #container /* Acessar "id" no CSS - Só pode ter um id exclusivo */ {
+    width: 80%;
+    max-width: 980px;
+
+    margin: 40px auto;
+
+    display: flex;
+}
+
+#intro {
+    width: 300px;
+
+    margin-right: 20px;
+
+}
+
+main {
+    margin: 32px 0px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 32px;
+}
+
+.button /* Acessar "class" no CSS - Class pode ser feita quantas vezes necessário*/ {
+    background-color: #ff5E84;
+    color: white;
+    
+    width: 140px;
+    height: 40px;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 8px;
+
+    box-shadow: 0px 8px 16px rgba(255, 0, 92, 0.2);
+ }
+
+ button {
+   border: none;
+   font-weight: bold;
+   background: none;
+   color: #ff5E84;
+   cursor: pointer;
+   outline: none;
+   font-size: 14px;
+   line-height: 18px;
+   letter-spacing: 0.2px;
+}
+
+footer {
+    text-align: center;
+
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    initial-letter: 0.2px;
+
+    color: #777;
+}
+
+footer a {
+    opacity: 0.7;
+}
+
+.ideia {
+    display: flex;
+    margin-bottom: 18px;
+
+    border-radius: 8px;
+    box-shadow: 0 4px 16px -8px rgba(1, 1, 1, 0.1);
+    background-color: #ffffff;
+
+    padding: 12px;
+}
+
+.ideia img {
+    width: 55px;
+    height: 55px;
+
+    margin-right: 30px;
+    margin-left: 5px;
+    margin-top: 5px;
+
+}
+
+.ideia p {
+    margin: 4px 0px;
+    color: #777;
+}
+
+.ideia h3 {
+    margin: 0px;
+}
+
+.ideia .description {
+    margin: 8px 0;
+}  
+
+/* Modal/Pop Up */
+
+#modal {
+    background-color: #ff5E84;
+    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    
+    display: flex;
+    justify-content: center;
+
+    transition: 400ms;
+}
+
+#modal.addScroll {
+    overflow: auto;
+}
+
+#modal .content {
+    margin-top: 50px;
+
+    color: white;
+}
+
+#modal .content h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+#modal form {
+    max-width: 800px;
+    width: 80%;
+
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 20px; 
+}
+
+.content form div:nth-child(3), .content form div:nth-child(4), .content form div:nth-child(5) {
+    grid-column: span 2;
+    margin: 0px;
+}
+
+form input, form textarea {
+    width: 100%;
+    margin: 0px;
+
+    padding: 9px;
+
+
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 1px solid rgba(141, 25, 52, 0.5);
+
+    outline: none;
+}
+
+.input-wrapper {
+    margin: 16px 0;
+}
+
+form label {
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.8px;
+}
+
+form a {
+    width: 150px;
+    height: 40px;
+    
+    background-color: #ffffff22;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+
+    align-self: end;
+
+    transition: 400ms;
+}
+
+form a:hover {
+    background: #ffffff;
+    color: #ff5E84;
+
+    text-decoration: none;
+}
+
+form button {
+    background-color: #ffffff;
+
+    width: 150px;
+    height: 40px;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    grid-column: 2;
+    justify-self: end;
+
+    transition: 400ms;
+}
+
+form button:hover {
+    background-color: #0984e3;
+    color: white;
+    text-decoration: none;
+}
+
+#modal.hide {
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* IDEIAS */
+
+#page-ideias #container {
+    display: block;
+}
+
+#page-ideias header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+#page-ideias nav {
+    display: flex;
+    align-items: center;
+}
+
+#page-ideias nav li {
+    list-style-type: none;
+    margin-right: 18px;
+    color: #ff5E84;
+    font-weight: bold;
+}
+
+#page-ideias nav li {
+    color: #25282B;
+}
+
+#page-ideias nav li:last-child {
+    margin: 0px;
+
+    width: 130px;
+    height: 40px;
+
+    background-color: #ff5E84;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+    border-radius: 8px;
+}
+
+#page-ideias nav li:last-child:hover {
+    background-color: #0984e3;
+}
+
+#page-ideias nav li:last-child a {
+    color: white;
+
+    font-size: 14px;
+    font-weight: bold;
+}
+
+section#title {
+    text-align: center;
+
+    margin: 50px 0;
+}
+
+section#title p {
+    opacity: 0.7;
+    margin: 0px;
+}
+
+section#title h1 {
+    margin: 0px;
+    font-size: 28px;
+}
+
+section#ideias {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+
+    gap: 20px; /* distanciamento entre as colunas */
+}
+
+section#ideias .ideia {
+    margin: 0px;
+}
+
+section#ideias, footer {
+    margin-top: 64px;
+}
