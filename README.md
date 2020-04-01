@@ -1,2 +1,4 @@
 # Workshop Casa Criativa
- Criação de um website com idéias para o período de quarentena,
+ Workshop ministrado pelo instrutor Mayk Brito da Rocketseat que consiste em criar um site com ideias que possam ser utillizadas no período da quarentena. 
+
+ Utilizado HTML, CSS e JavaScript.
