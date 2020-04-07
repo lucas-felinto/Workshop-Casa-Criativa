@@ -15,8 +15,8 @@ Casa Criativa
 </p>
 
 <div>
-  <a href="https://gyazo.com/0c3d41970c926353f1141a6733cf785c"><img src="https://i.gyazo.com/0c3d41970c926353f1141a6733cf785c.gif" alt="Image from Gyazo" width="410"/></a>
-  <a href="https://gyazo.com/9a15df6d59f13efa27add26d777423ae"><img src="https://i.gyazo.com/9a15df6d59f13efa27add26d777423ae.gif" alt="Image from Gyazo" width="410"/></a>
+  <a href="https://gyazo.com/0c3d41970c926353f1141a6733cf785c"><img src="https://i.gyazo.com/0c3d41970c926353f1141a6733cf785c.gif" alt="Image from Gyazo" width="900"/></a>
+  <a href="https://gyazo.com/9a15df6d59f13efa27add26d777423ae"><img src="https://i.gyazo.com/9a15df6d59f13efa27add26d777423ae.gif" alt="Image from Gyazo" width="900"/></a>
 </div>
 
 <hr />
