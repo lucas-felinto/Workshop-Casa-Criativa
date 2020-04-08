@@ -11,7 +11,9 @@ Casa Criativa
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
-  </a>
+  </a>    
+    <img src="https://camo.githubusercontent.com/5cf08b70d6b8d6461312d17bdaebed7854f926ed/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6d61646525323062792d526f636b6574736561742d253233463839353244" alt="Rocketseat">
+  
 </p>
 
 <div>
