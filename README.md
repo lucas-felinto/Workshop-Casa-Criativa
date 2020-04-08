@@ -23,18 +23,18 @@ Casa Criativa
 
 <hr />
 
-## O WorkShop Dev
+## :rocket: Sobre o WorkShop Dev
 
 O WorkShop Dev foi um projeto realizado pela Rocketseat, ministrado pelo instrutor Mayk Brito com o objetivo de criar um website para promover ideias que possam ser realizadas em casa durante o período de quarentena.
 
 ## Tecnologias Utilizadas
 
-### Front End
+### 🖥 Front End
 
 * **HTML** 
 * **CSS** 
 * **JavaScript**
 
-### Back End
+### ⚙ Back End
 
 * **Node.js** 
